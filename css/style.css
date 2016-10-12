@@ -29,9 +29,9 @@ a {
     border: 1px solid #56506f; }
 
 .node text {
-  font-family: "Montserrat";
+  font-family: "Montserrat WF";
   font-size: 10px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase; }
 
@@ -39,12 +39,12 @@ a {
   margin-top: 100px;
   margin-bottom: 50px; }
   #jumbotron-wrapper h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display WF";
     font-size: 50px; }
     #jumbotron-wrapper h1::first-line {
       font-weight: 800; }
   #jumbotron-wrapper p {
-    font-family: "Playfair Display"; }
+    font-family: "Playfair Display WF"; }
     #jumbotron-wrapper p::first-line {
       font-weight: 800; }
 
@@ -63,7 +63,7 @@ svg {
   margin: 0 auto; }
 
 #viz-wrapper h1 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display WF";
   font-size: 90px;
   font-weight: 800;
   margin: 0;
@@ -75,9 +75,9 @@ svg {
     display: block;
     width: 100%; }
   #viz-wrapper .dropdown button, #viz-wrapper .dropdown p {
-    font-family: "Montserrat";
+    font-family: "Montserrat WF";
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase; }
 

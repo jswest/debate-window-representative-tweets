@@ -45,9 +45,9 @@ a {
 }
 .node {
 	text {
-		font-family: "Montserrat";
+		font-family: "Montserrat WF";
 		font-size: 10px;
-		font-weight: 100;
+		font-weight: 400;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -56,14 +56,14 @@ a {
 	margin-top: 100px;
 	margin-bottom: 50px;
 	h1 {
-		font-family: "Playfair Display";
+		font-family: "Playfair Display WF";
 		font-size: 50px;
 		&::first-line {
 			font-weight: 800;
 		}
 	}
 	p {
-		font-family: "Playfair Display";
+		font-family: "Playfair Display WF";
 		&::first-line {
 			font-weight: 800;
 		}
@@ -88,7 +88,7 @@ svg {
 
 #viz-wrapper {
 	h1 {
-		font-family: "Playfair Display";
+		font-family: "Playfair Display WF";
 		font-size: 90px;
 		font-weight: 800;
 		margin: 0;
@@ -102,9 +102,9 @@ svg {
 			width: 100%;
 		}
 		button, p {
-			font-family: "Montserrat";
+			font-family: "Montserrat WF";
 			font-size: 10px;
-			font-weight: 100;
+			font-weight: 400;
 			letter-spacing: 2px;
 			text-transform: uppercase;
 		}
