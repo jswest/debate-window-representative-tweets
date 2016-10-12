@@ -1,0 +1,117 @@
+$purple: #6D658D;
+$blue: #5A76A8;
+$red: #9F746E;
+$off: #eceeef;
+
+html,
+body {
+	min-width: 100%;
+}
+body {
+	background-color: $off;
+}
+
+header.navbar{
+	background: linear-gradient( to right, $blue, $red );
+	width: 100%;
+	height: 30px;
+
+}
+a {
+	color: $purple;
+	&:hover {
+		color: darken( $purple, 10% );
+	}
+}
+#viz-wrapper {
+
+	.btn-primary {
+		background-color: $purple;
+		border: 1px solid $purple;
+		&:hover {
+			background-color: darken( $purple, 10% );
+			border: 1px solid darken( $purple, 10% );		
+		}
+		&:focus {
+			background-color: darken( $purple, 10% );
+			border: 1px solid darken( $purple, 10% );
+		}
+		&:active {
+			background-color: darken( $purple, 10% );
+			border: 1px solid darken( $purple, 10% );
+		}
+	}
+
+}
+.node {
+	text {
+		font-family: "Montserrat";
+		font-size: 10px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
+#jumbotron-wrapper {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	h1 {
+		font-family: "Playfair Display";
+		font-size: 50px;
+		&::first-line {
+			font-weight: 800;
+		}
+	}
+	p {
+		font-family: "Playfair Display";
+		&::first-line {
+			font-weight: 800;
+		}
+	}	
+}
+
+#tweets-wrapper {
+	position: relative;
+}
+.background-color-wrapper {
+	background-color: lighten( $off, 25% );
+	border: 1px solid darken( $off, 25% );
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+svg {
+	display: block;
+	margin: 0 auto;
+}
+
+#viz-wrapper {
+	h1 {
+		font-family: "Playfair Display";
+		font-size: 90px;
+		font-weight: 800;
+		margin: 0;
+		text-align: center;
+	}
+	.dropdown {
+		margin: 0 auto;
+		width: 320px;
+		button {
+			display: block;
+			width: 100%;
+		}
+		button, p {
+			font-family: "Montserrat";
+			font-size: 10px;
+			font-weight: 100;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+.tweet-wrapper {
+	width: 25%;
+}

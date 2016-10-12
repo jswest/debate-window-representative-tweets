@@ -1,0 +1,87 @@
+html,
+body {
+  min-width: 100%; }
+
+body {
+  background-color: #eceeef; }
+
+header.navbar {
+  background: linear-gradient(to right, #5A76A8, #9F746E);
+  width: 100%;
+  height: 30px; }
+
+a {
+  color: #6D658D; }
+  a:hover {
+    color: #56506f; }
+
+#viz-wrapper .btn-primary {
+  background-color: #6D658D;
+  border: 1px solid #6D658D; }
+  #viz-wrapper .btn-primary:hover {
+    background-color: #56506f;
+    border: 1px solid #56506f; }
+  #viz-wrapper .btn-primary:focus {
+    background-color: #56506f;
+    border: 1px solid #56506f; }
+  #viz-wrapper .btn-primary:active {
+    background-color: #56506f;
+    border: 1px solid #56506f; }
+
+.node text {
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+#jumbotron-wrapper {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+  #jumbotron-wrapper h1 {
+    font-family: "Playfair Display";
+    font-size: 50px; }
+    #jumbotron-wrapper h1::first-line {
+      font-weight: 800; }
+  #jumbotron-wrapper p {
+    font-family: "Playfair Display"; }
+    #jumbotron-wrapper p::first-line {
+      font-weight: 800; }
+
+#tweets-wrapper {
+  position: relative; }
+
+.background-color-wrapper {
+  background-color: white;
+  border: 1px solid #a7b0b5;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px; }
+
+svg {
+  display: block;
+  margin: 0 auto; }
+
+#viz-wrapper h1 {
+  font-family: "Playfair Display";
+  font-size: 90px;
+  font-weight: 800;
+  margin: 0;
+  text-align: center; }
+#viz-wrapper .dropdown {
+  margin: 0 auto;
+  width: 320px; }
+  #viz-wrapper .dropdown button {
+    display: block;
+    width: 100%; }
+  #viz-wrapper .dropdown button, #viz-wrapper .dropdown p {
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
+.tweet-wrapper {
+  width: 25%; }
+
+/*# sourceMappingURL=style.css.map */
